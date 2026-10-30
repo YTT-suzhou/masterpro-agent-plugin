@@ -1,0 +1,15 @@
+{
+  "name": "masterpro",
+  "displayName": "MasterPro",
+  "version": "0.1.0",
+  "description": "在 AI 助手里直接使用 MasterPro：读取企业资料和产品库，请教产品总监和市场总监，生成营销文案、新品上市包和需求清单。",
+  "author": {
+    "name": "YTT AI",
+    "url": "https://ytt-ai.com"
+  },
+  "homepage": "https://github.com/YTT-suzhou/masterpro-agent-plugin",
+  "repository": "https://github.com/YTT-suzhou/masterpro-agent-plugin",
+  "privacyPolicyUrl": "https://app.ytt-ai.com/privacy",
+  "termsOfServiceUrl": "https://app.ytt-ai.com/terms",
+  "keywords": ["masterpro", "marketing", "sales", "product", "营销", "销售"]
+}

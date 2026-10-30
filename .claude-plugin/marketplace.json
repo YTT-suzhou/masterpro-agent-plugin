@@ -1,0 +1,16 @@
+{
+  "name": "masterpro",
+  "owner": {
+    "name": "YTT AI",
+    "url": "https://ytt-ai.com"
+  },
+  "description": "MasterPro 官方 AI 助手插件",
+  "plugins": [
+    {
+      "name": "masterpro",
+      "source": "./plugins/masterpro",
+      "description": "读取 MasterPro 企业资料和产品库，请教产品总监和市场总监，生成营销文案、新品上市包和需求清单。",
+      "category": "productivity"
+    }
+  ]
+}

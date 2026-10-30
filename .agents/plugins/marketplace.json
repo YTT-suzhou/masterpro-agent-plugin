@@ -1,0 +1,20 @@
+{
+  "name": "masterpro",
+  "interface": {
+    "displayName": "MasterPro"
+  },
+  "plugins": [
+    {
+      "name": "masterpro",
+      "source": {
+        "source": "local",
+        "path": "./plugins/masterpro"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

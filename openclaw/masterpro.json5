@@ -1,0 +1,23 @@
+// 把下面的内容合并进 OpenClaw 配置。
+// oauth.identity 必须是 "per-requester"：每个和机器人聊天的人用自己的 MasterPro 账号授权。
+// 不设置时，所有聊天对象会共用部署者一个人的 MasterPro 账号和权限。
+{
+  gateway: {
+    // 每人授权时浏览器回调用的公网地址，换成你的 OpenClaw 网关地址。
+    publicOrigin: "https://openclaw.example.com",
+  },
+  mcp: {
+    servers: {
+      masterpro: {
+        url: "https://app.ytt-ai.com/api/mcp",
+        transport: "streamable-http",
+        auth: "oauth",
+        oauth: {
+          identity: "per-requester",
+        },
+        // 总监回答最多等 45 秒，超时设长一些避免被提前中断。
+        requestTimeoutMs: 90000,
+      },
+    },
+  },
+}

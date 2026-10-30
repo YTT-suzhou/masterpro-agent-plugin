@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "masterpro": {
+      "type": "http",
+      "url": "https://app.ytt-ai.com/api/mcp"
+    }
+  }
+}

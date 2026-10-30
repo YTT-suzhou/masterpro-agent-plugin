@@ -1,0 +1,32 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "masterpro",
+  "version": "0.1.0",
+  "description": "在 AI 助手里直接使用 MasterPro：读取企业资料和产品库，请教产品总监和市场总监，生成营销文案、新品上市包和需求清单。",
+  "author": {
+    "name": "YTT AI",
+    "url": "https://ytt-ai.com"
+  },
+  "homepage": "https://github.com/YTT-suzhou/masterpro-agent-plugin",
+  "repository": "https://github.com/YTT-suzhou/masterpro-agent-plugin",
+  "keywords": ["masterpro", "marketing", "sales", "product", "营销", "销售"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "MasterPro",
+        "shortDescription": "用企业真实资料写营销内容，请教产品和市场总监",
+        "longDescription": "连接你的 MasterPro 账号后，AI 助手可以读取企业资料和产品库，向 MasterPro 的产品总监、市场总监提问，并按企业的真实信息生成营销文案、新品上市包和需求清单。所有数据按你在 MasterPro 的账号权限读取，可随时在 MasterPro「设置 → 已连接的应用」中撤销。",
+        "developerName": "YTT AI",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://ytt-ai.com",
+        "privacyPolicyURL": "https://app.ytt-ai.com/privacy",
+        "termsOfServiceURL": "https://app.ytt-ai.com/terms",
+        "defaultPrompt": [
+          "用 MasterPro 的企业资料，为我们的主打产品写 3 条小红书推广文案",
+          "请 MasterPro 市场总监为新品做一份上市方案"
+        ]
+      }
+    }
+  }
+}
