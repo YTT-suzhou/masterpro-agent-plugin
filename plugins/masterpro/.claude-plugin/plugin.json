@@ -9,6 +9,8 @@
   },
   "homepage": "https://github.com/YTT-suzhou/masterpro-agent-plugin",
   "repository": "https://github.com/YTT-suzhou/masterpro-agent-plugin",
+  "license": "MIT",
+  "icon": "./assets/icon.png",
   "privacyPolicyUrl": "https://app.ytt-ai.com/privacy",
   "termsOfServiceUrl": "https://app.ytt-ai.com/terms",
   "keywords": ["masterpro", "marketing", "sales", "product", "营销", "销售"]

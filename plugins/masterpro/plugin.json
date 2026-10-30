@@ -9,6 +9,7 @@
   },
   "homepage": "https://github.com/YTT-suzhou/masterpro-agent-plugin",
   "repository": "https://github.com/YTT-suzhou/masterpro-agent-plugin",
+  "license": "MIT",
   "keywords": ["masterpro", "marketing", "sales", "product", "营销", "销售"],
   "extensions": {
     "com.openai": {
@@ -22,6 +23,9 @@
         "websiteURL": "https://ytt-ai.com",
         "privacyPolicyURL": "https://app.ytt-ai.com/privacy",
         "termsOfServiceURL": "https://app.ytt-ai.com/terms",
+        "brandColor": "#0A3190",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png",
         "defaultPrompt": [
           "用 MasterPro 的企业资料，为我们的主打产品写 3 条小红书推广文案",
           "请 MasterPro 市场总监为新品做一份上市方案"

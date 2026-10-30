@@ -51,9 +51,14 @@ plugins/masterpro/
   .mcp.json                         Claude Code 的 MCP 服务配置
   plugin.json                       Agent Plugins 通用清单（Codex 等）
   mcp.json                          Agent Plugins 通用 MCP 服务配置
+  assets/icon.png                   插件图标
   skills/                           4 个技能
 openclaw/masterpro.json5            OpenClaw 配置片段（每人各自授权）
 docs/                               各应用的安装说明
 ```
 
 MCP 服务地址：`https://app.ytt-ai.com/api/mcp`（Streamable HTTP，OAuth 2.1 授权，支持动态注册和 Client ID Metadata Document）。
+
+## 许可证
+
+[MIT](LICENSE)
